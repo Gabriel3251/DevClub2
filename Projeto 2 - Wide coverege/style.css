@@ -1,0 +1,135 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 47px 32px 0 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    margin:47px 32px 178px 32px;
+    cursor: pointer;
+}
+
+.btn-header {
+    background: #6FBF44;
+    margin-left: 32px;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color:#FFFFFF;
+    border:#4CB538;
+    cursor: pointer;
+    border: none;
+}
+
+img{
+    margin: 163px 0 0 121px;
+}
+
+div{
+    display:inline-block;
+    width: 582px;
+    margin-left:84px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p {
+    width: 582px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    color: #4B505A;
+}
+
+.link-main {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:750px){
+    a {
+        display: none;
+    }
+
+    main {
+        margin: 0 auto;
+        display: block;
+    }
+
+    img {
+    width: 312px;
+    height: 288px;
+    position:absolute;
+    top: 90vh;
+    left: 35px;
+    height: 470px;
+    display: block;
+    width: auto;
+    margin: 50% auto;
+    }
+
+    h1 {
+    font-size: 47px;
+    width: auto;
+    margin: 85px 160px 0 50px;
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    }
+
+    p {
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    margin: 30px 20% auto 0;
+    width: auto;
+    position: relative;
+    top:10vh;
+    }
+
+    .link-main {
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin: 100px auto 0 25%;
+    display: block;
+    position: relative;
+    top: 10vh;
+    }
+
+    .btn-header {
+    position: relative;
+    bottom: 20px;
+    left: 340px;
+    width: 120px;
+    }
+}
+    
